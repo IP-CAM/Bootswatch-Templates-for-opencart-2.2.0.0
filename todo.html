@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+    all   
+       1. theme/your-template/images/flexarrows.png
+       2. oc /catalog/view/javascript/flexslider.js
+       3. oc /images/catalog/demo/banners/ 1140*380
+    theme  
+       4. theme/bootswatch-theme/stylesheet/flexslider.css and animate.css
+       5. theme/bootswatch-theme/stylesheet/bootstrap.min.css, -flexslider.css,- stylesheet.css, - animate.css - 
+       6. theme/bootswatch-theme/template/module/slideshow.tpl replace
+       7. theme/bootswatch-theme/template/common/header.tpl
+       add styles
+<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+<link href="catalog/view/theme/bootswatch_cerulean/stylesheet/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
+
+<link href="catalog/view/theme/bootswatch_cerulean/stylesheet/stylesheet.css" rel="stylesheet">
+<link href="catalog/view/theme/bootswatch_cerulean/stylesheet/color.css" rel="stylesheet">
+<link href="catalog/view/css/flexslider.css" rel="stylesheet" type="text/css"/>
+
+
+
+       8. theme/bootswatch-theme/template/common/header.tpl
+       move container inside menu
+
+       9.theme/bootswatch-theme/template/common/home.tpl move up top <?php echo $header; ?><?php echo $content_top; ?>
+       10. to change the top button color: common/cart.tpl line # add class 'btn-success'
+       11. to change button color: product/product.tpl #308 id="button-cart" change the class to 'btn-success'
+       12. to change all tree buttons do a search on 'button-group' and replace with 
+            <div class="button-group btn-group-justified"> only if there are three, buttons.
+           add a class 'btn-default' to all buttons.
+           <div class="button-group btn-group-justified">
+                <button type="button" class="btn btn-default"onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+                <button type="button" class="btn btn-default"data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart"></i></button>
+                <button type="button" class="btn btn-default"data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-exchange"></i></button>
+              </div>
+           
+           
+    </body> 
+    
+</html>

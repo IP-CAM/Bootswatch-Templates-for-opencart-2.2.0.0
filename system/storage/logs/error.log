@@ -1,0 +1,8 @@
+2016-04-22 4:15:45 - PHP Notice:  Undefined variable: coupon in C:\Ampps\www\oc2200\catalog\view\theme\bootswatch_flatly\template\checkout\cart.tpl on line 100
+2016-04-22 4:15:45 - PHP Notice:  Undefined variable: voucher in C:\Ampps\www\oc2200\catalog\view\theme\bootswatch_flatly\template\checkout\cart.tpl on line 100
+2016-04-22 4:15:45 - PHP Notice:  Undefined variable: reward in C:\Ampps\www\oc2200\catalog\view\theme\bootswatch_flatly\template\checkout\cart.tpl on line 100
+2016-04-22 4:15:45 - PHP Notice:  Undefined variable: shipping in C:\Ampps\www\oc2200\catalog\view\theme\bootswatch_flatly\template\checkout\cart.tpl on line 100
+2016-04-26 1:22:09 - PHP Notice:  Undefined variable: coupon in C:\Ampps\www\oc2200\catalog\view\theme\bootswatch_paper\template\checkout\cart.tpl on line 100
+2016-04-26 1:22:09 - PHP Notice:  Undefined variable: voucher in C:\Ampps\www\oc2200\catalog\view\theme\bootswatch_paper\template\checkout\cart.tpl on line 100
+2016-04-26 1:22:09 - PHP Notice:  Undefined variable: reward in C:\Ampps\www\oc2200\catalog\view\theme\bootswatch_paper\template\checkout\cart.tpl on line 100
+2016-04-26 1:22:09 - PHP Notice:  Undefined variable: shipping in C:\Ampps\www\oc2200\catalog\view\theme\bootswatch_paper\template\checkout\cart.tpl on line 100

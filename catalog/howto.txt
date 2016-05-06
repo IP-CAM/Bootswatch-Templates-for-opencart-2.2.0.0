@@ -1,0 +1,3 @@
+1. open zip file
+2 copy view file over yourcart/catalog/view folder.
+3. login to your admin navigate to your layouts -> home, Slideshow live it in Content Top, the rest place it in Content Bottom.

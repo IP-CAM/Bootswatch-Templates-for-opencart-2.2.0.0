@@ -1,0 +1,38 @@
+
+#top .btn-link, #top-links li, #top-links a {
+        
+        color: #888;
+	
+}
+#top .btn-link:hover, #top-links a:hover {
+	color: #444;
+}
+
+#top-links .dropdown-menu a:hover {
+    color: #FFF;
+}
+
+footer {
+    /*background-color: #999;
+    border-top: 1px solid #000;
+    color: #ccc;*/
+    background-color: #333;
+    border-top: 1px solid #ddd;
+    color: #f0f0f0;
+}
+footer a {
+    /*color: #ccc;*/
+    color: #f0f0f0;
+}
+footer a:hover {
+    /*color: #fff;*/
+    color: #fff;
+}
+footer h5 {
+    /*color: #fff;*/
+    color: #fff;
+}
+footer hr {
+    /*border-bottom: 1px solid #666;*/
+    border-bottom: 1px solid #f0f0f0;
+}
